@@ -16,7 +16,7 @@ enableCapturerAutoConfiguration: true
 enableCapturerAutoDetectIpId: true
 enableCapturerAutoStartup: true
 enableCapturerIpListenFilter: false
-enableCapturerIpNegletFilter: false
+enableCapturerIpNegletFilter: true
 enableCapturerStereoRecording: true
 filePurgeBaseDirectory: "C:\\Users\\KC-PC\\AppData\\Local\\Temp"
 genesysFailFullDirectoryName: "D:\\github\\SistasYazilimGrubu\\SistasVoiceSolution\\\
@@ -41,7 +41,7 @@ maxConvertProcessThreadCount: 3
 metricsPublishingPeriodInSeconds: 120
 minInactiveFilePollingPeriodInMinutes: 1
 minMjrConvertLastModifiedTimeElapsedInMinutes: 720
-oAuth2ClientSecret: "{cipher}4541d205ad9e28e4cd9f9c0849a844009e91e19bc15f42f02bf503ed91ea4a62d012b4d46da28742acef4c38b148838dc600acc700b258e846bce1a4c53c62db"
+oAuth2ClientSecret: "{cipher}c1d940f1bfbe6ae745b4bdea27fc40d9bd44b714c3adfce82da68a45c9c86e99872736ff212840a8dfef06acbd97ff891531cd541c47d37a31d68c97e2170872"
 prometheusHostname: "192.168.2.96"
 prometheusPort: 28018
 reconciliationPeriodInMinutes: 3
