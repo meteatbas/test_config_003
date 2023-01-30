@@ -7,8 +7,8 @@ alcatelCallEventDataMappingDefinition: "|1=CorrelatorData|2=GlobalCallId|3=Calli
 alcatelCallEventLoggerTarget: "TargetTypeDB"
 alcatelConfigServerLookupPeriodInMinutes: 1
 alcatelCtiExecutionMode: "P"
-alcatelMonitoredExtensionRange: "self.In( 1003, 119, 142, 1621, 2006, 2008, 2010,\
-  \ 2999, 5101, 5200, 5201, 99550, test_agent_2 )"
+alcatelMonitoredExtensionRange: "self.In( 1003, 119, 142, 1621, 2008, 2010, 2999,\
+  \ 5101, 5200, 5201, 99550, test_agent_2 )"
 alcatelTelephonyServerPrimaryHost: "192.168.12.190"
 alcatelTelephonyServerStandbyHost: "192.168.12.190"
 archiveLocation: "D:\\SistasVoiceData\\Archive"
@@ -47,7 +47,7 @@ genesysMonitoredExtensionRange: "self.In( 1003, 142, 1621, 2010, 99550, test_age
   \ )"
 genesysTelephonyServerPrimaryHost: "192.168.12.185"
 genesysTelephonyServerPrimaryPort: 3100
-genesysTelephonyServerRtpPassword: "{cipher}50a022a385516e962a1e15bba5c96984975d123415632ba9e7f969292bf55e24"
+genesysTelephonyServerRtpPassword: "{cipher}d68cbb7f27ac7a25eae5df82706adf73bcd90ae5a22e16aa6f303b3788fd4ea3"
 genesysTelephonyServerStandbyHost: "192.168.2.180"
 genesysTelephonyServerStandbyPort: 3103
 hazelcastAddresses: "localhost:5701"
@@ -89,7 +89,7 @@ maxCallCountInConversation: 9
 mediaAttachmentTarget: "recorder"
 metricsPublishingPeriodInSeconds: 61
 minRemoveExpiredCallPartyContextInHours: 6
-oAuth2ClientSecret: "{cipher}7c476ced2a6f3b5ad7386a4bbc01b43a3c1c9c0ebcab2fcf81c5ab07669fba4be5dabf8af06ddd4750b8abc52eaca968501b6a578e889134559c742fe27acd15"
+oAuth2ClientSecret: "{cipher}132e7c98def150d8b763e09744cdf1b5f122da4be437e2a1772237dce3f68cc8120b3a312e0331ed0ad4f16b951669c40b3a0900d9498f9ca71acfae76b141bb"
 prometheusHostname: "127.0.0.1"
 prometheusPort: 28017
 recorderMonitoredExtensionRange: "self.In( 1003, 142, 1621, 2010, 99550, test_agent_2\
@@ -98,7 +98,7 @@ recordingUserDataFilter: "!userData1.Contains(\"VRENABLED\")"
 resourceListenBaseUri: "/SisBackupServer/BackupService/"
 resourceListenHost: "127.0.0.1"
 resourceListenPort: 28002
-restAccessToken: "{cipher}9bd4e5457e5fc70c9ee5dce811d7cb3d7864cbe70c746cf5e6f89906b4920250"
+restAccessToken: "{cipher}31ee6853887c7d635d08bf3a32c066db62404a319c3b793ab83abbcfb0c7929e"
 serviceRegisterRequestArgumentType: 11
 sistasConfigurationServerDownloadPeriodInMinutes: 4
 sistasConfigurationServerUrl: "http://192.168.2.70:8888"
