@@ -2,7 +2,7 @@ capturerActiveRecordingListenPortList: "30000-32000"
 capturerArguments: "-port 28000 -webm"
 capturerConfigurationPort: 28000
 capturerListenFilterIpList: ""
-capturerNegletFilterIpList: ""
+capturerNegletFilterIpList: "|192.168.2.44|"
 capturerNetworkAdaptorPatern: "CEB"
 clusteredInstanceCount: 1
 compressorArgumentsWebm: "-y -i {0} -c:v libvpx -threads 3 -f webm {1}"
@@ -42,7 +42,7 @@ maxConvertProcessThreadCount: 3
 metricsPublishingPeriodInSeconds: 120
 minInactiveFilePollingPeriodInMinutes: 1
 minMjrConvertLastModifiedTimeElapsedInMinutes: 720
-oAuth2ClientSecret: "{cipher}e65c3bec50b35245d00f006271e9f2b33872013b1971bc69e9d305d96c65eaf74ff32b977547f266f503aa44cbb78e377833098a6948510b553cac3cbd544ae5"
+oAuth2ClientSecret: "{cipher}bd28d3411783baac4bf7b6dc5427d9be165c7c25429b2d1e4ccdd0b3aa15c548782995895057b69405a09d9d44427d5865df54290aad0b4c9fdd09823204adcf"
 prometheusHostname: "192.168.2.96"
 prometheusPort: 28018
 reconciliationPeriodInMinutes: 3
