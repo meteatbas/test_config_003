@@ -41,7 +41,7 @@ maxConvertProcessThreadCount: 3
 metricsPublishingPeriodInSeconds: 120
 minInactiveFilePollingPeriodInMinutes: 1
 minMjrConvertLastModifiedTimeElapsedInMinutes: 720
-oAuth2ClientSecret: "{cipher}0bc008cff54b814f62f0bfb0f0e3238c1cddd5a1cac38df6a4662bf8b9ad4c2b80915a3ce4cde736394d8df08992de000df2f6bae4ecf5eefa5d0efa712be5a4"
+oAuth2ClientSecret: "{cipher}4541d205ad9e28e4cd9f9c0849a844009e91e19bc15f42f02bf503ed91ea4a62d012b4d46da28742acef4c38b148838dc600acc700b258e846bce1a4c53c62db"
 prometheusHostname: "192.168.2.96"
 prometheusPort: 28018
 reconciliationPeriodInMinutes: 3
