@@ -21,7 +21,7 @@ enableCapturerStereoRecording: true
 filePurgeBaseDirectory: "C:\\Users\\KC-PC\\AppData\\Local\\Temp"
 genesysFailFullDirectoryName: "D:\\github\\SistasYazilimGrubu\\SistasVoiceSolution\\\
   SistasVoiceAgent\\bin\\x64\\Debug\\datafiles\\fail"
-heartBeatPeriodInSeconds: 31
+heartBeatPeriodInSeconds: 32
 instanceId: "Agent001"
 isAllInOneConfiguration: false
 isCompressionEnabled: true
@@ -42,7 +42,7 @@ maxConvertProcessThreadCount: 3
 metricsPublishingPeriodInSeconds: 120
 minInactiveFilePollingPeriodInMinutes: 1
 minMjrConvertLastModifiedTimeElapsedInMinutes: 720
-oAuth2ClientSecret: "{cipher}bd28d3411783baac4bf7b6dc5427d9be165c7c25429b2d1e4ccdd0b3aa15c548782995895057b69405a09d9d44427d5865df54290aad0b4c9fdd09823204adcf"
+oAuth2ClientSecret: "{cipher}315bfb9dc8bc7ced3034d7e1f251922ebc81ee034435ed0437c268dcf22f88039c6a29bfe343b25ca54b96dd8211a8b610cd4144bb2ccced95bcbe845d7e664c"
 prometheusHostname: "192.168.2.96"
 prometheusPort: 28018
 reconciliationPeriodInMinutes: 3
