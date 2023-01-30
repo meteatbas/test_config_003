@@ -1,4 +1,4 @@
-alcatelAgentActivityMonitorReportIntervalInMinutes: 32
+alcatelAgentActivityMonitorReportIntervalInMinutes: 33
 alcatelBipToneGenerationPresenceTimer: 50
 alcatelBipToneGenerationSilenceTimer: 0
 alcatelBipToneGenerationTonality: 565
@@ -47,7 +47,7 @@ genesysMonitoredExtensionRange: "self.In( 1003, 142, 1621, 2010, 99550, test_age
   \ )"
 genesysTelephonyServerPrimaryHost: "192.168.12.185"
 genesysTelephonyServerPrimaryPort: 3100
-genesysTelephonyServerRtpPassword: "{cipher}f244f0d713a8d27b2a22410a22565ee14265c005d7ae0e46e06c10e5bf808d69"
+genesysTelephonyServerRtpPassword: "{cipher}cbd842bfbbf0fa996680cff20d1c77bde7415c6171fb65908861ac6e47c24ee2"
 genesysTelephonyServerStandbyHost: "192.168.2.180"
 genesysTelephonyServerStandbyPort: 3103
 hazelcastAddresses: "localhost:5701"
@@ -89,7 +89,7 @@ maxCallCountInConversation: 9
 mediaAttachmentTarget: "recorder"
 metricsPublishingPeriodInSeconds: 61
 minRemoveExpiredCallPartyContextInHours: 6
-oAuth2ClientSecret: "{cipher}ae02fc2b2135cf602e29bfcc8e8c7418e08c3587c8aa777ef9d0d186b4d29f19969f81f661bb8063987ef37f4269c9ed710ae55040a2fb330ded38fa3f35000f"
+oAuth2ClientSecret: "{cipher}df16bd6e31c6ee646058e5b7ab8b290d5fbbff511cb577211ab26adb750db9b00f801d9220dd33a47da33b6aa53560547b6e2d9bcce6a5ece5d4d30840c75402"
 prometheusHostname: "127.0.0.1"
 prometheusPort: 28017
 recorderMonitoredExtensionRange: "self.In( 1003, 142, 1621, 2010, 99550, test_agent_2\
@@ -98,7 +98,7 @@ recordingUserDataFilter: "!userData1.Contains(\"VRENABLED\")"
 resourceListenBaseUri: "/SisBackupServer/BackupService/"
 resourceListenHost: "127.0.0.1"
 resourceListenPort: 28002
-restAccessToken: "{cipher}f04366176555a0df08357eb7da30c355a7795d5cc217ebe6c7a9d1a1d8c55d14"
+restAccessToken: "{cipher}2b4c57dc5768b38352f47b1ffda78a61e27203dda3a1fa4fd61611c2dd89ba58"
 serviceRegisterRequestArgumentType: 11
 sistasConfigurationServerDownloadPeriodInMinutes: 4
 sistasConfigurationServerUrl: "http://192.168.2.70:8888"
