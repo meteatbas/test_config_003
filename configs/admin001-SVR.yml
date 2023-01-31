@@ -1,6 +1,7 @@
 clusteredInstanceCount: 1
+commonConfigRecorder: "55"
 instanceId: "Admin001"
 isAllInOneConfiguration: false
 isSistasConfigurationServerEnabled: true
-oAuth2ClientSecret: "{cipher}b4abca7924334f6187ad60b5c7bb34b06afa44f1c70d131813d927bd43758738f1f57e93840aeba21e54b2567e62f3526626a30d55f7eb749608d33d9abe44c9"
+oAuth2ClientSecret: "{cipher}bd8449965a41d5a1f5db3ca07a13cedd27f55d00525d74d11af47813eada45ce2e9ec9d6ae9a5d22df90dbec76dff77d98e74e17dfb5c50db0748e31317895f6"
 sistasConfigurationServerUrl: "http://192.168.2.70:8888"
