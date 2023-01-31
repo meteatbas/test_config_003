@@ -1,5 +1,4 @@
-alcatelAgentActivityMonitorReportIntervalInMinutes: 37
-alcatelAgentCallHistoryBufferSize: 61
+alcatelAgentActivityMonitorReportIntervalInMinutes: 31
 alcatelBipToneGenerationPresenceTimer: 50
 alcatelBipToneGenerationSilenceTimer: 0
 alcatelBipToneGenerationTonality: 565
@@ -8,7 +7,7 @@ alcatelCallEventDataMappingDefinition: "|1=CorrelatorData|2=GlobalCallId|3=Calli
 alcatelCallEventLoggerTarget: "TargetTypeDB"
 alcatelConfigServerLookupPeriodInMinutes: 1
 alcatelCtiExecutionMode: "P"
-alcatelMonitoredExtensionRange: "self.In( 1003, 119, 142, 1621, 2008, 2010, 2012,\
+alcatelMonitoredExtensionRange: "self.In( 1003, 119, 142, 1621, 2006, 2008, 2010,\
   \ 2999, 5101, 5200, 5201, 99550, test_agent_2 )"
 alcatelTelephonyServerPrimaryHost: "192.168.12.190"
 alcatelTelephonyServerStandbyHost: "192.168.12.190"
@@ -48,7 +47,7 @@ genesysMonitoredExtensionRange: "self.In( 1003, 142, 1621, 2010, 99550, test_age
   \ )"
 genesysTelephonyServerPrimaryHost: "192.168.12.185"
 genesysTelephonyServerPrimaryPort: 3100
-genesysTelephonyServerRtpPassword: "{cipher}966242169c71f527a87a5966821170aac007ed89531e89c7a884fbf953827c6f"
+genesysTelephonyServerRtpPassword: "{cipher}a4c22d9d0594d4eca2e6297714a28753d206016a3c1471c25053cf0ba0b34769"
 genesysTelephonyServerStandbyHost: "192.168.2.180"
 genesysTelephonyServerStandbyPort: 3103
 hazelcastAddresses: "localhost:5701"
@@ -90,7 +89,7 @@ maxCallCountInConversation: 9
 mediaAttachmentTarget: "recorder"
 metricsPublishingPeriodInSeconds: 61
 minRemoveExpiredCallPartyContextInHours: 6
-oAuth2ClientSecret: "{cipher}1fca36ce1202d67770b9e3f0779fd6f74999969a5311abe836e1995d6639693bd26719ee3d00c92a2f725175dff930a9ac8fcc565a0aac31d74d73162f363400"
+oAuth2ClientSecret: "{cipher}710bcd3f5b224b13992034bd79996d85f98395cc856a2e271497b5e5afaa049e27060498d684f189da88c8fb0f7acb8b0bee3d2bc1a1b887af7f06142ce92544"
 prometheusHostname: "127.0.0.1"
 prometheusPort: 28017
 recorderMonitoredExtensionRange: "self.In( 1003, 142, 1621, 2010, 99550, test_agent_2\
@@ -99,7 +98,7 @@ recordingUserDataFilter: "!userData1.Contains(\"VRENABLED\")"
 resourceListenBaseUri: "/SisBackupServer/BackupService/"
 resourceListenHost: "127.0.0.1"
 resourceListenPort: 28002
-restAccessToken: "{cipher}d11809bad44a7d1089426aac1dc277fb85f643b0b42e81ee28a735ff8f18b1bc"
+restAccessToken: "{cipher}a64e83281ab44cb61771ecc20309b390289e893a8867dacd6ce7d71cd38747b3"
 serviceRegisterRequestArgumentType: 11
 sistasConfigurationServerDownloadPeriodInMinutes: 4
 sistasConfigurationServerUrl: "http://192.168.2.70:8888"
