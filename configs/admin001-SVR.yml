@@ -1,0 +1,6 @@
+clusteredInstanceCount: 1
+instanceId: "Admin001"
+isAllInOneConfiguration: false
+isSistasConfigurationServerEnabled: true
+oAuth2ClientSecret: "{cipher}b4ae2fc62373b2f59be2884310424d93558c0e050cf07c6a2ec333ec3ff85633d583b7f23fd2c25b85e59a19f1761f90efa85f78472f43bf33acaaea86468ed2"
+sistasConfigurationServerUrl: "http://192.168.2.70:8888"
