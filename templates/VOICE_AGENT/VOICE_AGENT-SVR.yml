@@ -88,28 +88,6 @@ cacheSubDirectoryNameWebm:
   rule: null
   restartRequired: false
   defaultValue: "datafiles\\cache\\webm"
-capturerListenFilterIpList:
-  configValueCount: "SINGLE"
-  configValueType: "STRING"
-  displayName: "Capturer Listen Filter Ip List"
-  description: "Ip list seperated with '|', Only IP lists will be recorded. enableCapturerIpListenFilter\
-    \ should be true. NegletFilter override ListenFilter  ex: |192.168.2.45|192.168.2.76| "
-  sectionName: "Capturer"
-  encrypted: false
-  rule: null
-  restartRequired: false
-  defaultValue: "||"
-capturerNegletFilterIpList:
-  configValueCount: "SINGLE"
-  configValueType: "STRING"
-  displayName: "Capturer Neglet Filter Ip List"
-  description: "Ip list seperated with '|', IP lists will not be recorded. enableCapturerIpNegletFilter\
-    \ should be true. NegletFilter override ListenFilter  ex: |192.168.2.45|192.168.2.76| "
-  sectionName: "Capturer"
-  encrypted: false
-  rule: null
-  restartRequired: false
-  defaultValue: "||"
 capturingSubDirectoryName:
   configValueCount: "SINGLE"
   configValueType: "STRING"
@@ -150,27 +128,6 @@ conversionSubDirectoryName:
   rule: null
   restartRequired: false
   defaultValue: "datafiles\\process\\conversion"
-enableCapturerIpListenFilter:
-  configValueCount: "SINGLE"
-  configValueType: "BOOLEAN"
-  displayName: "Enable Capturer Ip Listen Filter"
-  description: "Only IPs in capturerListenFilterIpList will be recorded"
-  sectionName: "Capturer"
-  encrypted: false
-  rule: null
-  restartRequired: true
-  defaultValue: false
-enableCapturerIpNegletFilter:
-  configValueCount: "SINGLE"
-  configValueType: "BOOLEAN"
-  displayName: "Enable Capturer Ip Neglet Filter"
-  description: "Enable Capturer Ip Neglet Filter, capturerNegletFilterIpList IP list\
-    \ will not be recorded. "
-  sectionName: "Capturer"
-  encrypted: false
-  rule: null
-  restartRequired: true
-  defaultValue: false
 encryptionSubDirectoryName:
   configValueCount: "SINGLE"
   configValueType: "STRING"
