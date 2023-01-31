@@ -2,7 +2,7 @@ capturerActiveRecordingListenPortList: "30000-32000"
 capturerArguments: "-port 28000 -webm"
 capturerConfigurationPort: 28000
 capturerListenFilterIpList: ""
-capturerNegletFilterIpList: ""
+capturerNegletFilterIpList: "|192.168.2.44|"
 capturerNetworkAdaptorPatern: "CEB"
 clusteredInstanceCount: 1
 compressorArgumentsWebm: "-y -i {0} -c:v libvpx -threads 3 -f webm {1}"
@@ -16,11 +16,12 @@ enableCapturerAutoConfiguration: true
 enableCapturerAutoDetectIpId: true
 enableCapturerAutoStartup: true
 enableCapturerIpListenFilter: false
-enableCapturerIpNegletFilter: false
+enableCapturerIpNegletFilter: true
 enableCapturerStereoRecording: true
 filePurgeBaseDirectory: "C:\\Users\\KC-PC\\AppData\\Local\\Temp"
 genesysFailFullDirectoryName: "D:\\github\\SistasYazilimGrubu\\SistasVoiceSolution\\\
   SistasVoiceAgent\\bin\\x64\\Debug\\datafiles\\fail"
+heartBeatPeriodInSeconds: 32
 instanceId: "Agent001"
 isAllInOneConfiguration: false
 isCompressionEnabled: true
@@ -41,7 +42,7 @@ maxConvertProcessThreadCount: 3
 metricsPublishingPeriodInSeconds: 120
 minInactiveFilePollingPeriodInMinutes: 1
 minMjrConvertLastModifiedTimeElapsedInMinutes: 720
-oAuth2ClientSecret: "{cipher}440228a00c7a0594d5bc0da70cfbb1f428a2a89d24a56603de5001a6539ebeddb1e7ef2deb4b9c1049af4a19ba3fa82be84b7041816b6aeb9d53f873ca83082d"
+oAuth2ClientSecret: "{cipher}99710b28b683f092a537325417c0285abce10b56a9257ef75e3fae3f810fc9ad2d4b3f5a5e393023b97916f95e9e10580b303bcb242abd68094520fe4758af18"
 prometheusHostname: "192.168.2.96"
 prometheusPort: 28018
 reconciliationPeriodInMinutes: 3
