@@ -37,13 +37,14 @@ maxConvertProcessThreadCount: 3
 metricsPublishingPeriodInSeconds: 120
 minInactiveFilePollingPeriodInMinutes: 1
 minMjrConvertLastModifiedTimeElapsedInMinutes: 720
-oAuth2ClientSecret: "{cipher}9b43429c6d7ded50049acac28816189be23c3f330c1c7421702df9c8641d46c9b53ef39fa7216a190080bc6ee0107bef2ee594a01d173eae10bfcf4c2242f5a4"
+oAuth2ClientSecret: "{cipher}4886020d960b5101398be843a3eb4c6912fb1044d0d63c0a4968624a016306c4d8a11e7560539eef973133f7b4b78ffa2da3efa3e83f3207027ee64cddda727d"
 prometheusHostname: "192.168.2.96"
 prometheusPort: 28018
 reconciliationPeriodInMinutes: 3
+saiAnalyzerUri: "{cipher}b52e9e578af0ff2b5c5a61932fa4cdb68149a65907a707af465d4ef95f05d0eb3d68e54370566ae9e26207274ea09b9a"
 sistasConfigurationServerDownloadPeriodInMinutes: 2
 sistasConfigurationServerUrl: "http://192.168.2.70:8888"
-uploadSourceFileToAnalitic: null
+uploadSourceFileToAnalitic: ""
 uploadType: "rest"
 voiceAdminHost: "127.0.0.1"
 voiceExplorerUri: "https://localhost:8080"
