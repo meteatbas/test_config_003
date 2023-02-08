@@ -39,12 +39,12 @@ maxConvertProcessThreadCount: 3
 metricsPublishingPeriodInSeconds: 120
 minInactiveFilePollingPeriodInMinutes: 1
 minMjrConvertLastModifiedTimeElapsedInMinutes: 720
-oAuth2ClientSecret: "{cipher}851f0b5155abc49847ae92d3c813973367a93a3d2c1b102a122011a6a2486480e80b3e3d5c555099430f499859847950a54d607611b244cf1579e5c7dc8753b6"
+oAuth2ClientSecret: "{cipher}07c7e274c0fca64d0ecd18bb9d3d6aa942de1b89547c77017e6f13dbadd10ab1161716a3e61474215e0e14ed0caa3e3639401479323fc3432d3519e9c9ccabf3"
 prometheusHostname: "192.168.2.96"
 prometheusPort: 28018
 reconciliationPeriodInMinutes: 3
-restAccessToken: "{cipher}2772213cfbfb278bbe91e7498326db6336ba23deb14ff8e608c5f2b258627104"
-saiAnalyzerUri: "{cipher}6575278840714ada3939260605545d13f1e1d21fbb77b9b2a9f49862c6dd3a35"
+restAccessToken: "{cipher}b0d59fcd25d5beaff2a4b3d1ef5845a20eda10e8967d31d05548dcc0b7db6c43"
+saiAnalyzerUri: "{cipher}eccedf1805d0f536bf5c15b4243ad9d4e18dedf73c2ad938911a5e4fb8072686"
 sistasConfigurationServerDownloadPeriodInMinutes: 2
 sistasConfigurationServerUrl: "http://192.168.2.70:8888"
 uploadSourceFileToAnalitic: ""
