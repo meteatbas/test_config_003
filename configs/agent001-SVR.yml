@@ -17,6 +17,7 @@ enableCapturerStereoRecording: true
 filePurgeBaseDirectory: "C:\\Users\\KC-PC\\AppData\\Local\\Temp"
 genesysFailFullDirectoryName: "D:\\github\\SistasYazilimGrubu\\SistasVoiceSolution\\\
   SistasVoiceAgent\\bin\\x64\\Debug\\datafiles\\fail"
+heartBeatPeriodInSeconds: 3055
 instanceId: "Agent001"
 isAllInOneConfiguration: false
 isCompressionEnabled: true
@@ -37,12 +38,12 @@ maxConvertProcessThreadCount: 3
 metricsPublishingPeriodInSeconds: 120
 minInactiveFilePollingPeriodInMinutes: 1
 minMjrConvertLastModifiedTimeElapsedInMinutes: 720
-oAuth2ClientSecret: "{cipher}6f9b24bb51e7738f1599725d0a29d0dd4dbfc39d2c8cf2fa3d57837a53125609104c5147d6648e51cd40d5760d91cc22423620de02908f1e7378995df506c01c"
+oAuth2ClientSecret: "{cipher}41c8b40207f8b66de37817a4527ac5e60d0254b83a167e78d22413a20c43751f7de6f135bee1c76f23b7a05286820da64a88bfa127940ad247de4ec3cfa4d8e0"
 prometheusHostname: "192.168.2.96"
 prometheusPort: 28018
 reconciliationPeriodInMinutes: 3
-restAccessToken: "{cipher}7776b8d0f8d089b0b7888ba228bda38fae9b9750a6e6afbe1fbcf9ae34074630"
-saiAnalyzerUri: "{cipher}83199d6137c659c897f9fa83899e6f22fc46e97496e283e43a08f95e0f65621e"
+restAccessToken: "{cipher}b8d81e98150fb2a91bfa3b668cd8d24c8cd480dde4e8b74ebc5e4b64636726cd"
+saiAnalyzerUri: "{cipher}dbfb81eee5ac2f60aea846e4a2d3ed3d361017579ca229776dfb53511f2fe9ac"
 sistasConfigurationServerDownloadPeriodInMinutes: 2
 sistasConfigurationServerUrl: "http://192.168.2.70:8888"
 uploadSourceFileToAnalitic: ""
