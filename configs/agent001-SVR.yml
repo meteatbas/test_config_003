@@ -7,7 +7,7 @@ compressorArgumentsWebm: "-y -i {0} -c:v libvpx -threads 3 -f webm {1}"
 compressorName: "speexenc.exe"
 compressorPath: "D:\\github\\SistasYazilimGrubu\\SistasVoiceSolution\\SistasVoiceAgent\\\
   bin\\x64\\Debug\\distribution\\compressor\\2016_11_11_11_11_12"
-configurationPublishingPeriodInSeconds: 1204
+configurationPublishingPeriodInSeconds: 12045
 enableCapturToFile: true
 enableCapturerActiveRecording: true
 enableCapturerAutoConfiguration: true
@@ -39,12 +39,12 @@ maxConvertProcessThreadCount: 3
 metricsPublishingPeriodInSeconds: 120
 minInactiveFilePollingPeriodInMinutes: 1
 minMjrConvertLastModifiedTimeElapsedInMinutes: 720
-oAuth2ClientSecret: "{cipher}4fa2e165bd4da913af9c6674719f630f4eba8af9476e37ccb87dd75bf6123f7e5718488259af5c611a7827fcf5dd0a796f54002cba1e11d103a2bab5725ea8d7"
+oAuth2ClientSecret: "{cipher}ff34127f7ab84e6f0bbaccb3ce44f39528185eea8851cfb47fcf8e1afa37b67ab72cec3dfd3521b0c0334d4ced0c7682223b831cf3660830a305d8d55cbbdab0"
 prometheusHostname: "192.168.2.96"
 prometheusPort: 28018
 reconciliationPeriodInMinutes: 3
-restAccessToken: "{cipher}27234efb5949ad2c66305421af4f66cc08e37c5d9a33d9ce5558820d70094e24"
-saiAnalyzerUri: "{cipher}a220db0f697b56c42bb167b8cc09afc2f74c7fea5f86808f159f41321fb127fd"
+restAccessToken: "{cipher}a65ef49f319b786c929b54f4df1d5f17a9d006e28db65b3b2f907c356166964f"
+saiAnalyzerUri: "{cipher}3b6cf4baade63b48983425775601ba484b0a2e32a0955e6952650d449f8928ff"
 sistasConfigurationServerDownloadPeriodInMinutes: 2
 sistasConfigurationServerUrl: "http://192.168.2.70:8888"
 uploadSourceFileToAnalitic: ""
