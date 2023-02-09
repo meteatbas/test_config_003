@@ -1,1 +1,2 @@
-{}
+agent001-generateListenFilter: true
+agent001-generateNeglectFilter: true
